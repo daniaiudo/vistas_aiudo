@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/vistas_aiudo/', function () {
+Route::get('/vistas', function () {
     return view('vistas');
 });
 
