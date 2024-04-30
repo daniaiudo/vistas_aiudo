@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('vistas_aiudo');
+Route::get('/vistas_aiudo/', function () {
+    return view('vistas');
 });
 
 Route::get('/vistas_aiudo/signature', function () {
