@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="/vistas">Vistas</a>
+    <?php include('./resources/views/vistas.blade.php'); ?>
 </body>
 </html>
