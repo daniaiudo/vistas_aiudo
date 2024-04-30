@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistas</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .d-vistas-general {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .d-titulo-vistas h1 {
+            margin: 20px;
+            color: #002e6d;
+            font-weight: 900;
+            font-size: 60px;
+        }
+
+        .d-contenedor-vistas {
+            margin: 0 auto;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            flex-wrap: wrap;
+        }
+
+        .d-vistas {
+            width: 20%;
+            border: 2px solid #002e6d;
+            border-radius: 30px;
+            margin: 30px;
+            text-decoration: none;
+            padding: 20px;
+            font-weight: 700;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            transition: 0.5s;
+        }
+
+        .d-vistas:hover {
+            text-decoration: underline;
+            color: #ff595a;
+            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            transform: scale(1.05);
+        }
+
+        .d-p-vistas {
+            color: #ff595a;
+            font-size: 10px;
+            margin-bottom: 15px;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+        }
+
+        .d-imagen-vistas {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="d-vistas-general">
+        <div class="d-titulo-vistas">
+            <h1>Selecciona una vista</h1>
+        </div>
+        <div class="d-contenedor-vistas">
+                <a class="d-vista-signature d-vistas" href="/vistas/signature" target="_blank">
+    <p class="d-p-vistas">SIGNATURE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/signature.png" alt="" class="d-imagen-signature d-imagen-vistas">
+</a>
+
+                <a class="d-vista-invoice d-vistas" href="/vistas/invoice" target="_blank">
+    <p class="d-p-vistas">INVOICE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/invoice.png" alt="" class="d-imagen-invoice d-imagen-vistas">
+</a>                <a class="d-vista-needs_assessment d-vistas" href="/vistas/needs_assessment" target="_blank">
+    <p class="d-p-vistas">NEEDS_ASSESSMENT.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/needs_assessment.png" alt="" class="d-imagen-needs_assessment d-imagen-vistas">
+</a>                <a class="d-vista-payroll d-vistas" href="/vistas/payroll" target="_blank">
+    <p class="d-p-vistas">PAYROLL.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/payroll.png" alt="" class="d-imagen-payroll d-imagen-vistas">
+</a>                <a class="d-vista-registration d-vistas" href="/vistas/registration" target="_blank">
+    <p class="d-p-vistas">REGISTRATION.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/registration.png" alt="" class="d-imagen-registration d-imagen-vistas">
+</a>                <a class="d-vista-welcome d-vistas" href="/vistas/welcome" target="_blank">
+    <p class="d-p-vistas">WELCOME.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/welcome.png" alt="" class="d-imagen-welcome d-imagen-vistas">
+</a>                <a class="d-vista-carer_available_update_plain d-vistas" href="/vistas/carer_available_update_plain" target="_blank">
+    <p class="d-p-vistas">CARER_AVAILABLE_UPDATE_PLAIN.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/carer_available_update_plain.png" alt="" class="d-imagen-carer_available_update_plain d-imagen-vistas">
+</a>                <a class="d-vista-carer_available_update d-vistas" href="/vistas/carer_available_update" target="_blank">
+    <p class="d-p-vistas">CARER_AVAILABLE_UPDATE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/carer_available_update.png" alt="" class="d-imagen-carer_available_update d-imagen-vistas">
+</a>                <a class="d-vista-recruiter-profile-mail d-vistas" href="/vistas/recruiter-profile-mail" target="_blank">
+    <p class="d-p-vistas">RECRUITER-PROFILE-MAIL.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/recruiter.png" alt="" class="d-imagen-recruiter-profile-mail d-imagen-vistas">
+</a>                <a class="d-vista-issued_invoice d-vistas" href="/vistas/issued_invoice" target="_blank">
+    <p class="d-p-vistas">ISSUED-INVOICE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/issued_invoice.png" alt="" class="d-imagen-issued_invoice d-imagen-vistas">
+</a>                <a class="d-vista-accept d-vistas" href="/vistas/accept" target="_blank">
+    <p class="d-p-vistas">ACCEPT.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/accept.png" alt="" class="d-imagen-accept d-imagen-vistas">
+</a>                <a class="d-vista-reject d-vistas" href="/vistas/reject" target="_blank">
+    <p class="d-p-vistas">REJECT.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/reject.png" alt="" class="d-imagen-reject d-imagen-vistas">
+</a>                <a class="d-vista-reminder d-vistas" href="/vistas/reminder" target="_blank">
+    <p class="d-p-vistas">REMINDER.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/reminder.png" alt="" class="d-imagen-reminder d-imagen-vistas">
+</a>                <a class="d-vista-resend d-vistas" href="/vistas/resend" target="_blank">
+    <p class="d-p-vistas">RESEND.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/resend.png" alt="" class="d-imagen-resend d-imagen-vistas">
+</a>                <a class="d-vista-draft-created-employers-bihar d-vistas" href="/vistas/draft-created-employers-bihar" target="_blank">
+    <p class="d-p-vistas">DRAFT-CREATED-EMPLOYERS-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/draft-created-employers-bihar.png" alt="" class="d-imagen-draft-created-employers-bihar d-imagen-vistas">
+</a>                <a class="d-vista-draft-created-employers d-vistas" href="/vistas/draft-created-employers" target="_blank">
+    <p class="d-p-vistas">DRAFT-CREATED-EMPLOYERS.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/draft-created-employers.png" alt="" class="d-imagen-draft-created-employers d-imagen-vistas">
+</a>                <a class="d-vista-draft-created d-vistas" href="/vistas/draft-created" target="_blank">
+    <p class="d-p-vistas">DRAFT-CREATED.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/draft-created.png" alt="" class="d-imagen-draft-create d-imagen-vistas">
+</a>                <a class="d-vista-draft-updated d-vistas" href="/vistas/draft-updated" target="_blank">
+    <p class="d-p-vistas">DRAFT-UPDATED.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/draft-updated.png" alt="" class="d-imagen-draft-updated d-imagen-vistas">
+</a>                <a class="d-vista-employer-registration-gathering-bihar d-vistas" href="/vistas/employer-registration-gathering-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYER-REGISTRATION-GATHERING-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employer-registration-gathering-bihar.png" alt="" class="d-imagen-employer-registration-gathering-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employer-registration-gathering d-vistas" href="/vistas/employer-registration-gathering" target="_blank">
+    <p class="d-p-vistas">EMPLOYER-REGISTRATION-GATHERING.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employer-registration-gathering.png" alt="" class="d-imagen-employer-registration-gathering d-imagen-vistas">
+</a>                <a class="d-vista-employer-registration-signature-bihar d-vistas" href="/vistas/employer-registration-signature-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYER-REGISTRATION-SIGNATURE-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employer-registration-signature-bihar.png" alt="" class="d-imagen-employer-registration-signature-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employer-registration-signature d-vistas" href="/vistas/employer-registration-signature" target="_blank">
+    <p class="d-p-vistas">EMPLOYER-REGISTRATION-SIGNATURE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employer-registration-signature.png" alt="" class="d-imagen-employer-registration-signature d-imagen-vistas">
+</a>                <a class="d-vista-employer-registration-success-bihar d-vistas" href="/vistas/employer-registration-success-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYER-REGISTRATION-SUCCESS-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employer-registration-success-bihar.png" alt="" class="d-imagen-employer-registration-success-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employer-registration-success d-vistas" href="/vistas/employer-registration-success" target="_blank">
+    <p class="d-p-vistas">EMPLOYER-REGISTRATION-SUCCESS.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employer-registration-success.png" alt="" class="d-imagen-employer-registration-success d-imagen-vistas">
+</a>                <a class="d-vista-employment-registration-gathering-bihar d-vistas" href="/vistas/employment-registration-gathering-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-REGISTRATION-GATHERING-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-registration-gathering-bihar.png" alt="" class="d-imagen-employment-registration-gathering-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employment-registration-gathering d-vistas" href="/vistas/employment-registration-gathering" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-REGISTRATION-GATHERING.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-registration-gathering.png" alt="" class="d-imagen-employment-registration-gathering d-imagen-vistas">
+</a>                <a class="d-vista-employment-registration-signature-bihar d-vistas" href="/vistas/employment-registration-signature-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-REGISTRATION-SIGNATURE-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-registration-signature-bihar.png" alt="" class="d-imagen-employment-registration-signature-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employment-registration-signature d-vistas" href="/vistas/employment-registration-signature" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-REGISTRATION-SIGNATURE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-registration-signature.png" alt="" class="d-imagen-employment-registration-signature d-imagen-vistas">
+</a>                <a class="d-vista-employment-registration-success-bihar d-vistas" href="/vistas/employment-registration-success-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-REGISTRATION-SUCCESS-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-registration-success-bihar.png" alt="" class="d-imagen-employment-registration-success-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employment-registration-success d-vistas" href="/vistas/employment-registration-success" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-REGISTRATION-SUCCESS.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-registration-success.png" alt="" class="d-imagen-employment-registration-success d-imagen-vistas">
+</a>                <a class="d-vista-employment-termination-signature-bihar d-vistas" href="/vistas/employment-termination-signature-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-TERMINATION-SIGNATURE-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-termination-signature-bihar.png" alt="" class="d-imagen-employment-termination-signature-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employment-termination-signature d-vistas" href="/vistas/employment-termination-signature" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-TERMINATION-SIGNATURE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-termination-signature.png" alt="" class="d-imagen-employment-termination-signature d-imagen-vistas">
+</a>                <a class="d-vista-employment-termination-success-bihar d-vistas" href="/vistas/employment-termination-success-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-TERMINATION-SUCCESS-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-termination-success-bihar.png" alt="" class="d-imagen-employment-termination-success-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employment-termination-success d-vistas" href="/vistas/employment-termination-success" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-TERMINATION-SUCCESS.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-termination-success.png" alt="" class="d-imagen-employment-termination-success d-imagen-vistas">
+</a>                <a class="d-vista-employment-variation-signature-bihar d-vistas" href="/vistas/employment-variation-signature-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-VARIATION-SIGNATURE-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-variation-signature-bihar.png" alt="" class="d-imagen-employment-variation-signature-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employment-variation-signature d-vistas" href="/vistas/employment-variation-signature" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-VARIATION-SIGNATURE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-variation-signature.png" alt="" class="d-imagen-employment-variation-signature d-imagen-vistas">
+</a>                <a class="d-vista-employment-variation-success-bihar d-vistas" href="/vistas/employment-variation-success-bihar" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-VARIATION-SUCCESS-BIHAR.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-variation-success-bihar.png" alt="" class="d-imagen-employment-variation-success-bihar d-imagen-vistas">
+</a>                <a class="d-vista-employment-variation-success d-vistas" href="/vistas/employment-variation-success" target="_blank">
+    <p class="d-p-vistas">EMPLOYMENT-VARIATION-SUCCESS.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/employment-variation-success.png" alt="" class="d-imagen-employment-variation-success d-imagen-vistas">
+</a>                <a class="d-vista-procedure-approve d-vistas" href="/vistas/procedure-approve" target="_blank">
+    <p class="d-p-vistas">PROCEDURE-APPROVE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/procedure-approve.png" alt="" class="d-imagen-procedure-approve d-imagen-vistas">
+</a>                <a class="d-vista-procedure-reject d-vistas" href="/vistas/procedure-reject" target="_blank">
+    <p class="d-p-vistas">PROCEDURE-REJECT.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/procedure-reject.png" alt="" class="d-imagen-procedure-reject d-imagen-vistas">
+</a>                <a class="d-vista-procedure-reminder-mail-data-gathering d-vistas" href="/vistas/procedure-reminder-mail-data-gathering" target="_blank">
+    <p class="d-p-vistas">PROCEDURE-REMINDER-MAIL-DATA-GATHERING.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/procedure-reminder-mail-data-gathering.png" alt="" class="d-imagen-procedure-reminder-mail-data-gathering d-imagen-vistas">
+</a>                <a class="d-vista-procedure-reminder-mail d-vistas" href="/vistas/procedure-reminder-mail" target="_blank">
+    <p class="d-p-vistas">PROCEDURE-REMINDER-MAIL.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/procedure-reminder-mail.png" alt="" class="d-imagen-procedure-reminder-mail d-imagen-vistas">
+</a>                <a class="d-vista-procedure-sad d-vistas" href="/vistas/procedure-sad" target="_blank">
+    <p class="d-p-vistas">PROCEDURE-SAD.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/procedure-sad.png" alt="" class="d-imagen-procedure-sad d-imagen-vistas">
+</a>                <a class="d-vista-mail d-vistas" href="/vistas/mail" target="_blank">
+    <p class="d-p-vistas">MAIL.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/mail.png" alt="" class="d-imagen-mail d-imagen-vistas">
+</a>                <a class="d-vista-profile d-vistas" href="/vistas/profile" target="_blank">
+    <p class="d-p-vistas">PROFILE.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/profile.png" alt="" class="d-imagen-profile d-imagen-vistas">
+</a>                <a class="d-vista-new d-vistas" href="/vistas/new" target="_blank">
+    <p class="d-p-vistas">NEW.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/new.png" alt="" class="d-imagen-new d-imagen-vistas">
+</a>                <a class="d-vista-paid d-vistas" href="/vistas/paid" target="_blank">
+    <p class="d-p-vistas">PAID.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/paid.png" alt="" class="d-imagen-paid d-imagen-vistas">
+</a>                <a class="d-vista-paidSAD d-vistas" href="/vistas/paidSAD" target="_blank">
+    <p class="d-p-vistas">PAIDSAD.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/paidSAD.png" alt="" class="d-imagen-paidSAD d-imagen-vistas">
+</a>                <a class="d-vista-sad d-vistas" href="/vistas/sad" target="_blank">
+    <p class="d-p-vistas">SAD.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/sad.png" alt="" class="d-imagen-sad d-imagen-vistas">
+</a>                <a class="d-vista-call_request d-vistas" href="/vistas/call_request" target="_blank">
+    <p class="d-p-vistas">CALL_REQUEST.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/call_request.png" alt="" class="d-imagen-call_request d-imagen-vistas">
+</a>                <a class="d-vista-service_closed_alert d-vistas" href="/vistas/service_closed_alert" target="_blank">
+    <p class="d-p-vistas">SERVICE_CLOSED_ALERT.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/service_closed_alert.png" alt="" class="d-imagen-service_closed_alert d-imagen-vistas">
+</a>                <a class="d-vista-service_paused_alert d-vistas" href="/vistas/service_paused_alert" target="_blank">
+    <p class="d-p-vistas">SERVICE_PAUSED_ALERT.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/service_paused_alert.png" alt="" class="d-imagen-service_paused_alert d-imagen-vistas">
+</a>                <a class="d-vista-carers d-vistas" href="/vistas/carers" target="_blank">
+    <p class="d-p-vistas">CARERS.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/carers.png" alt="" class="d-imagen-carers d-imagen-vistas">
+</a>                <a class="d-vista-errorCreateFamily d-vistas" href="/vistas/errorCreateFamily" target="_blank">
+    <p class="d-p-vistas">ERRORCREATEFAMILY.BLADE.PHP</p>
+    <img src="http://daniaiudo.github.io/images/errorCreateFamily.png" alt="" class="d-imagen-errorCreateFamily d-imagen-vistas">
+</a>
+        </div>
+    </div>
+</body>
+</html>
